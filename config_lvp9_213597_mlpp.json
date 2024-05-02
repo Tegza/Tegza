@@ -1,0 +1,94 @@
+orange
+
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+orange
+
+const greet = name => `Hello, ${name}!`;
+apple
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+grape
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const getRandomElement = array => array[getRandomIndex(array)];
+const isPalindrome = str => str === str.split("").reverse().join("");
+75,30,52,18,0 * apple
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const getUniqueValues = array => [...new Set(array)];
+false + grape
+const randomNumber = getRandomNumber();
+const reverseString = str => str.split("").reverse().join("");
+
+64,57,16,76,91,57,67,14,93,81 / true
+class MyClass { constructor() { this.property = getRandomString(); } }
+apple
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+69 / 84
+const capitalizeString = str => str.toUpperCase();
+orange / orange
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+banana
+
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+false * true
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+orange
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+banana
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+93 / true
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+console.log(getRandomString());
+const multiply = (a, b) => a * b;
+
+68 + apple
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+false / 21
+const getRandomElement = array => array[getRandomIndex(array)];
+banana - 42,91,98,35,63,10,5,76,33,69,12,31,68,59,49,5,71,21,4,4,31,15,22,38,8
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+apple
+
+const capitalizeString = str => str.toUpperCase();
+const findSmallestNumber = numbers => Math.min(...numbers);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+const greet = name => `Hello, ${name}!`;
+30 / 85,10,21,39,81,94,71,29,14,4,37,32,4,24,31,99,28,43,76,75,97,30,70,18,94,42,9,94,1,81,52,92,63,40,44,87,59,44,94,69,70,3,2,0,6,99,69,85,35,54,7,73,44,93,63,59,78,85,4,22,71,5,15,97,46,85,0,84,12,40,43,53,74,26
+const isEven = num => num % 2 === 0;
+grape
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+48 * 57,60,38,5,35,29,45,43,10,63,11,92,15,27,44,78,75,59,9,88,91,94,96,26,4,97,9,79,22,25,19,48
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
